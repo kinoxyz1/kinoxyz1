@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 
-![JiXiang Liu's github stats](https://github-readme-stats.vercel.app/api?username=bnyte&show_icons=true&theme=dark)
+![kino github stats](https://github-readme-stats.vercel.app/api?username=KinoMin&show_icons=true&theme=dark)
