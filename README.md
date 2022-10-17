@@ -1,4 +1,4 @@
-### Hi there 👋
+### 👋
 
 <!--
 **KinoMin/KinoMin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 
-![kino github stats](https://github-readme-stats.vercel.app/api?username=KinoMin&show_icons=true&theme=dark)
+![kino github stats](https://github-readme-stats.vercel.app/api?username=kinomin&show_icons=true&theme=radical&icon_color=CCFF33&text_color=FF00FF&title_color=666FF)
