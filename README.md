@@ -13,11 +13,11 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
 
 
 ![kino github stats](https://github-readme-stats.vercel.app/api?username=kinoxyz1&show_icons=true&theme=radical&icon_color=CCFF33&text_color=FF00FF&title_color=666FF)
-
+-->
 
 <picture>
   <source
