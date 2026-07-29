@@ -21,22 +21,15 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-
     
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: generate SVG
-        uses: cyprieng/github-breakout@v1
-        with:
-          github_username: ${{ github.repository_owner }}
-
       - name: Move generated SVGs to temp
         run: |
           mkdir -p /tmp/breakout-images
-          mv output/light.svg /tmp/breakout-images/breakout-light.svg
-          mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
+          mv dist/github-contribution-grid-snake.svg /tmp/breakout-images/breakout-light.svg
+          mv dist/github-contribution-grid-snake-dark.svg?palette=github-dark /tmp/breakout-images/breakout-dark.svg
 
       - name: Configure git
         run: |
