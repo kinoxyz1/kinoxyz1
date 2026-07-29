@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            /tmp/dist/github-contribution-grid-snake.svg
-            /tmp/dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            /tmp/github-contribution-grid-snake.svg
+            /tmp/github-contribution-grid-snake-dark.svg?palette=github-dark
     
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,8 +28,8 @@ jobs:
       - name: Move generated SVGs to temp
         run: |
           mkdir -p /tmp/breakout-images
-          mv /tmp/dist/github-contribution-grid-snake.svg /tmp/breakout-images/breakout-light.svg
-          mv /tmp/dist/github-contribution-grid-snake-dark.svg?palette=github-dark /tmp/breakout-images/breakout-dark.svg
+          mv /tmp/github-contribution-grid-snake.svg /tmp/breakout-images/breakout-light.svg
+          mv /tmp/github-contribution-grid-snake-dark.svg?palette=github-dark /tmp/breakout-images/breakout-dark.svg
 
       - name: Configure git
         run: |
