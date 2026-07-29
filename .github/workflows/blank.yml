@@ -28,8 +28,8 @@ jobs:
       - name: Move generated SVGs to temp
         run: |
           mkdir -p /tmp/breakout-images
-          mv /tmp/github-contribution-grid-snake.svg /tmp/breakout-images/breakout-light.svg
-          mv /tmp/github-contribution-grid-snake-dark.svg?palette=github-dark /tmp/breakout-images/breakout-dark.svg
+          cp /tmp/github-contribution-grid-snake.svg /tmp/breakout-images/breakout-light.svg
+          cp /tmp/github-contribution-grid-snake-dark.svg /tmp/breakout-images/breakout-dark.svg
 
       - name: Configure git
         run: |
